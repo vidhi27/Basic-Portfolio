@@ -135,14 +135,31 @@
  .icons{     
       width: 62px;  
   }
-  
-  
- .imagegallery{
-      
-    margin: 0px 36px 56px 0px;
-    width: 250px;
-    height: 300px;
- }
+ 
+  .gallery {
+      background:  #ffffff;
+      width: 650px;
+      border:2px;
+      border-color:#dddddd;
+      border-style: solid;
+      line-height: 1.9;
+      margin: 40px 40px 120px 156px;
+      padding:0px 30px 20px 30px;
+      float: left;
+  }
+  .image1 {
+      margin: 0px 36px 56px 0px;
+      float:left;
+      height:300px;
+      width: 250px;
+  }
+
+  .image2{
+     margin: 0px 36px 56px 0px;
+      float:right;
+      height: 300px;
+      width: 250px;
+  }
 
  img {
     float:left;
@@ -150,7 +167,7 @@
 
  .boxes{
     display: inline-block;
-    float: right;
+    float: left;
     position:absolute;
     z-index: 100;
     font-size: 24px;
